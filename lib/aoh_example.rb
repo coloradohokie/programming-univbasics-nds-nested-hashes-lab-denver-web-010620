@@ -28,7 +28,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
-  value = aoh[row]{key}
+  value = aoh[row][key]
 end
 =begin
 def aoh_update(aoh, row, key, new_value)
