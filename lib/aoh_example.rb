@@ -26,7 +26,7 @@ def literal_aoh
   array[4] = BRUCE_G
   return array
 end
-
+=begin
 def aoh_lookup(aoh, row, key)
   value = aoh[row]{key}
 end
@@ -37,3 +37,4 @@ def aoh_update(aoh, row, key, new_value)
   
   aoh[row]{key} = new_value
 end
+=end
