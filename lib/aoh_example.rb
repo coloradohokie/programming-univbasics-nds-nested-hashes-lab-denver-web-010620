@@ -19,11 +19,14 @@ def literal_aoh
   
   #MN->I don't know what this means???
   
-  array[0] = {name: "Don Gately", occupation: "Live-in Staff"}
-  array[1] = JOELLE_VD
-  array[2] = PAT_M
-  array[3] = KATE_G
-  array[4] = BRUCE_G
+  array = [
+    { name:  "Don Gately", occupation: "Live-in Staff"},
+    { name:  "Joelle van Dyne", occupation: "Radio Personality" },
+    { name:  "Pat Monteseian", occupation: "Staff" },
+    { name:  "Kate Gompert", occupation: "None" },
+    { name:  "Bruce Green", occupation: "Fan of Mildred" }
+  ]
+  
   return array
 end
 
