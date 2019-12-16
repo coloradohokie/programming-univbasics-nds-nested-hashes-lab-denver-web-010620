@@ -19,7 +19,7 @@ def literal_aoh
   
   #MN->I don't know what this means???
   
-  array[0] = DON_G
+  array[0] = {name: "Don Gately", occupation: "Live-in Staff"}
   array[1] = JOELLE_VD
   array[2] = PAT_M
   array[3] = KATE_G
