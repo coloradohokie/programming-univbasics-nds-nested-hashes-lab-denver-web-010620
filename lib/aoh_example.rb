@@ -16,12 +16,24 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
+  
+  #MN->I don't know what this means???
+  
+  array[0] = DON_G
+  array[1] = JOELLE_VD
+  array[2] = PAT_M
+  array[3] = KATE_G
+  array[4] = BRUCE_G
+  return array
 end
 
 def aoh_lookup(aoh, row, key)
+  value = aoh[row]{key}
 end
 
 def aoh_update(aoh, row, key, new_value)
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
+  
+  aoh[row]{key} = new_value
 end
